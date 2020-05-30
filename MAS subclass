@@ -1,0 +1,23 @@
+public class MAS extends Airplanes{ //Inheritance //subclass
+
+
+
+public void Engine(){  //Overriding
+ System.out.println("Engine MAS is made in America by  Pratt & Whitney");
+ }
+ 
+ 
+public void  EngineType(){  //Overriding
+ System.out.println("Type of engine: A330-300s");
+ }
+ 
+
+
+ public void specialFeatures(){  //Overriding
+  System.out.println("Speacial Features: UV lights in airplane<<This may help to kill all the virus>>");
+  }
+
+
+
+
+}
