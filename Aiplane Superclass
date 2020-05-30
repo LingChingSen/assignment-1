@@ -1,0 +1,49 @@
+public class Airplanes{ //Inheritance //superclass
+
+private String name; //Encapsolution
+private int ID;
+
+public void setPilotName(String newName){
+ name = newName;
+ }
+ 
+public String getPilotName(){
+ return name;
+ }
+ 
+public void setPilotID(int newID){
+ ID = newID;
+ }
+ 
+public int getPilotID(){
+ return ID;
+ }
+
+
+
+
+public void Engine(){
+ System.out.println("");
+ }
+ 
+ 
+public void EngineType(){
+ System.out.println("");
+ }
+ 
+
+public void normalFeatures(){
+  System.out.println("Normal features: Radar, Auto Gate, Bluetooth speaker");
+  }
+  
+public void specialFeatures(){
+System.out.println("");
+}
+
+
+
+
+ 
+ 
+  }
+
