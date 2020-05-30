@@ -1,0 +1,19 @@
+public class AirAsia extends Airplanes{ // Inheritance //subclass
+
+public void Engine(){  //Overriding
+System.out.println("Engine AirAsia is made in United State by CFM International");
+ }
+ 
+ 
+public void EngineType(){  //Overriding
+System.out.println("Type of engine : A320neos");
+ }
+ 
+ 
+public void specialFeatures(){  //Overriding
+System.out.println("SpeacialFeatures: TV behind the seat.");
+  }
+ 
+ 
+
+}
