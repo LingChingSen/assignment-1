@@ -1,0 +1,17 @@
+public class Malindo extends Airplanes{ // Inheritance //subclass
+
+public void Engine(){ //Overriding
+ System.out.println("Engine Malindo is made in United State by CFM International");
+ }
+ 
+public void EngineType(){  //Overriding
+ System.out.println("Type of engine : LEAP-1B");
+ }
+ 
+ 
+ public void specialFeatures(){  //Overriding
+ System.out.println("Speacial features: WIFI Service in airplane");
+ }
+
+
+}
