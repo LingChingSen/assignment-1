@@ -1,0 +1,54 @@
+public class Main{
+
+public static void main(String []args){
+
+ Airplanes a = new Airplanes();
+ a.setPilotName("Jason");
+ a.setPilotID(271738);
+ 
+ System.out.println("Hi,pilot"+ " " + a.getPilotName());
+ System.out.println("ID:" + a.getPilotID());
+ 
+Airplanes pilot[] = new Airplanes[3]; //Polymorphism
+ pilot[0] = new MAS();
+ pilot[1] = new AirAsia();
+ pilot[2] = new Malindo();
+ 
+ 
+ System.out.println("........................THE INFORMATION OF AIRPLANES.............................") ;
+ 
+ for(int x=0; x<1; ++x){
+ pilot[x].Engine();
+ pilot[x].EngineType();
+ pilot[x].normalFeatures();
+ pilot[x].specialFeatures();
+ 
+ System.out.println("................................................................................");
+
+}
+
+for(int x=1; x<2; ++x){
+ pilot[x].Engine();
+ pilot[x].EngineType();
+ pilot[x].normalFeatures();
+ pilot[x].specialFeatures();
+ 
+ System.out.println("..................................................................................");
+
+}
+
+for(int x=2; x<3; ++x){
+ pilot[x].Engine();
+ pilot[x].EngineType();
+ pilot[x].normalFeatures();
+ pilot[x].specialFeatures();
+ 
+ System.out.println("....................................................................................");
+
+}
+
+ 
+
+
+}
+}
